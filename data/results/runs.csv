@@ -1,0 +1,6 @@
+case,mesh,mdot_inlet,span_m,converged
+design,coarse,,,
+design,medium,,,
+design,fine,,,
+over,,,,
+under,,,,

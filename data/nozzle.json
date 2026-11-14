@@ -1,0 +1,22 @@
+{
+  "_comment": "Single source of truth for the nozzle. SI units. Planar (2D) nozzle, modelled as the upper half with a symmetry plane on the axis. Read by the MATLAB code and by cad/make_nozzle_step.py (through data/results/contour.csv).",
+  "name": "N-3 planar Mach 3 nozzle",
+  "gamma": 1.4,
+  "R_gas": 287.05,
+  "T0": 300,
+  "exit_mach": 3.0,
+  "throat_half_height": 0.005,
+  "chamber_half_height": 0.015,
+  "converging_length": 0.015,
+  "n_characteristics": 40,
+  "wall_thickness": 0.004,
+  "lid_thickness": 0.004,
+  "depth": 0.010,
+  "p_ambient": 101325,
+  "T_ambient": 293.2,
+  "cases": {
+    "design": 3.722e6,
+    "over":   1.0e6,
+    "under":  7.44e6
+  }
+}
